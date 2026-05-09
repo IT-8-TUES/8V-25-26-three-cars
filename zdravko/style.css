@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    margin: 0;
+    transition: background-color 0.8s ease;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(38, 38, 38);
+    height: 5rem;
+    padding: 0 3rem;
+    border-radius: 3rem;
+    margin: 2rem;
+}
+
+.header button{
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.home{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+#ferrari{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#3d0000;
+    min-height: 200vh;
+    margin-top: 2rem;
+}
+
+#merc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#003d2e;
+    min-height: 200vh;
+}
+
+#redbull{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#00003d;
+    min-height: 200vh;
+}
+
+#redbull-{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#001a4d;
+    min-height: 200vh;
+}
+
+#maclaren{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#8b370afd;
+    min-height: 200vh;
+}
+
+#williams{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#00154d;
+    min-height: 200vh;
+}
+
+#haas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#2a2a2a;
+    min-height: 200vh;
+}
+
+#audi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#1a1a1a;
+    min-height: 200vh;
+}
+
+#astonMartin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#003d1a;
+    min-height: 200vh;
+}
+
+#alpine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#00004d;
+    min-height: 200vh;
+}
+
+#cadillac{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#0f003d;
+    min-height: 200vh;
+}
