@@ -1,18 +1,19 @@
 body {
     background-color: black;
     margin: 0;
-    transition: background-color 0.8s ease;
+    transition: background-color 0.5s ease;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(38, 38, 38);
+    background-color: black;
     height: 5rem;
     padding: 0 3rem;
-    border-radius: 3rem;
-    margin: 2rem;
+    position: sticky;
+    top: 0.00001rem;  
+    z-index: 100;
 }
 
 .header button{
@@ -31,7 +32,7 @@ body {
     justify-content: flex-start;
 }
 
-.about{
+.other{
     display: flex;
     justify-content: space-between;
     gap: 3rem;
@@ -40,99 +41,135 @@ body {
 #ferrari{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#3d0000;
-    min-height: 200vh;
-    margin-top: 2rem;
+    min-height: 150vh;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 #merc{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#003d2e;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #redbull{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#00003d;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #redbull-{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#001a4d;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #maclaren{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#8b370afd;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #williams{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#00154d;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #haas{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#2a2a2a;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #audi{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#1a1a1a;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #astonMartin{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#003d1a;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #alpine{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#00004d;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
 }
 
 #cadillac{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:#0f003d;
-    min-height: 200vh;
+    min-height: 150vh;
+    margin-top: 2rem;
+    padding-top: 3rem;
+}
+
+div h1 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+div p {
+  font-size: 2rem;
+  color: #aaaaaa;
+  max-width: 50rem;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.name{
+    padding: 4rem;
+}
+
+.about{
+    align-self: start;
+    margin-left: 2rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3rem;
 }

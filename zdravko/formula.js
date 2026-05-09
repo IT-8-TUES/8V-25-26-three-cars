@@ -3,7 +3,7 @@ const colors = {
   merc: '#003d2e',
   redbull: '#00003d',
   'redbull-': '#001a4d',
-  maclaren: '#3d1500',
+  maclaren: '#4d1f00',
   williams: '#00154d',
   haas: '#2a2a2a',
   audi: '#1a1a1a',
