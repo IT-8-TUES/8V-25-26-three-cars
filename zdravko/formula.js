@@ -23,3 +23,21 @@ window.addEventListener('scroll', () => {
     }
   }
 });
+
+
+
+document.querySelectorAll('.carousel').forEach(carousel => {
+  const img = carousel.querySelector('img');
+  const images = img.dataset.images.split(',');
+  let current = 0;
+
+  carousel.querySelector('.prev').addEventListener('click', () => {
+    current = (current - 1 + images.length) % images.length;
+    img.src = images[current];
+  });
+
+  carousel.querySelector('.next').addEventListener('click', () => {
+    current = (current + 1) % images.length;
+    img.src = images[current];
+  });
+});

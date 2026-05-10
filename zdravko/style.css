@@ -173,3 +173,44 @@ div p {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 3rem;
 }
+
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 900px;
+  width: 100%;
+}
+
+.carousel img {
+  max-width: 85%;
+  height: 100%;
+  min-height: 20rem;
+  max-height: 35rem;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+
+.carousel button {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  min-width: 50px;
+}
+
+.carousel button:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
