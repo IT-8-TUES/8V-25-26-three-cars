@@ -41,3 +41,28 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     img.src = images[current];
   });
 });
+
+
+function toggleMenu() {
+  const menu = document.getElementById('teamMenu');
+  if (menu.classList.contains('open')) {
+    menu.classList.remove('open');
+  } else {
+    menu.classList.add('open');
+    menu.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+document.addEventListener('click', (e) => {
+  const menu = document.getElementById('teamMenu');
+  const btn = document.querySelector('.team-nav-btn');
+  if (!menu.contains(e.target) && !btn.contains(e.target)) {
+    menu.classList.remove('open');
+  }
+});
+
+document.querySelectorAll('.team-menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('teamMenu').classList.remove('open');
+  });
+});

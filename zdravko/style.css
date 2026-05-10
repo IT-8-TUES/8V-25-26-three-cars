@@ -22,6 +22,13 @@ body {
     font-size: 1.2rem;
 }
 
+.header button:hover{
+    background-color: #aaaaaa;
+    border-radius: 2rem;
+    transition: 0.2s;
+    padding: 1rem 2.5rem;
+}
+
 .header a{
     color: white;
     text-decoration: none;
@@ -30,12 +37,14 @@ body {
 .home{
     display: flex;
     justify-content: flex-start;
+    margin-left: 5rem;
 }
 
 .other{
     display: flex;
     justify-content: space-between;
-    gap: 3rem;
+    margin-left: 7rem;
+    gap: 2rem;
 }
 
 #ferrari{
@@ -148,13 +157,13 @@ body {
     padding-top: 3rem;
 }
 
-div h1 {
+.name h1 {
   font-size: 5rem;
   color: white;
   margin-bottom: 0.5rem;
 }
 
-div p {
+.about p {
   font-size: 2rem;
   color: #aaaaaa;
   max-width: 50rem;
@@ -213,4 +222,81 @@ div p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.team-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  position: relative;
+}
+
+.team-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  background: rgba(0,0,0,0.95);
+  backdrop-filter: blur(10px);
+  padding: 0 2rem;
+  width: 20rem;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 7rem;
+  z-index: 200;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+.team-menu.open {
+  max-height: 40vh;
+  padding: 1rem 2rem;
+  overflow-y: none;
+}
+.team-menu.open {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0);
+}
+
+.team-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem !important;
+  padding: 0.4rem 0;
+  transition: color 0.2s;
+}
+
+.team-nav-btn {
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.team-nav-btn:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.team-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.4rem 0;
+  transition: color 0.2s;
+}
+
+.team-menu a:hover {
+  color: #aaaaaa;
+}
+
+html {
+  scroll-behavior: smooth;
 }
