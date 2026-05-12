@@ -152,7 +152,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height:  120vh;
+    min-height:  140vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -298,4 +298,33 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.drivers button{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 4rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-self: flex-end;
+    
+}
+
+
+.drivers button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.photo-drivers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-drivers > :last-child{
+    align-self: flex-end;
+    margin-right: 8rem;
 }
