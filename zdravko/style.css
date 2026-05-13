@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 1rem;
     padding-top: 1.5rem;
 }
@@ -62,7 +62,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -72,7 +72,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -82,7 +82,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -92,7 +92,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -102,7 +102,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -112,7 +112,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -122,7 +122,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -132,7 +132,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -142,7 +142,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:   130vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
@@ -152,21 +152,22 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 150vh;
+    min-height:  140vh;
     margin-top: 2rem;
     padding-top: 3rem;
 }
 
 .name h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: white;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .about p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #aaaaaa;
-  max-width: 50rem;
+  max-width: 40rem;
   text-align: center;
   line-height: 1.8;
 }
@@ -188,15 +189,13 @@ body {
   align-items: center;
   gap: 1rem;
   padding: 2rem;
-  max-width: 900px;
+  max-width: 85%;
   width: 100%;
 }
 
 .carousel img {
   max-width: 85%;
-  height: 100%;
-  min-height: 20rem;
-  max-height: 35rem;
+  height: 25rem;
   object-fit: cover;
   border-radius: 0.6rem;
 }
@@ -207,8 +206,9 @@ body {
   color: white;
   font-size: 2rem;
   padding: 1rem;
-  border-radius: 50%;
+  border-radius: 5rem;
   cursor: pointer;
+  text-align: center;
   min-width: 50px;
 }
 
@@ -242,18 +242,17 @@ body {
   background: rgba(0,0,0,0.95);
   backdrop-filter: blur(10px);
   padding: 0 2rem;
-  width: 20rem;
+  width: 16.5rem;
   max-height: 0;
   overflow: hidden;
-  position: absolute;
+  position: absolute    ;
   top: 7rem;
   z-index: 200;
   transition: max-height 0.5s ease, padding 0.5s ease;
 }
 
 .team-menu.open {
-  max-height: 40vh;
-  padding: 1rem 2rem;
+  max-height: 55vh;
   overflow-y: none;
 }
 .team-menu.open {
@@ -299,4 +298,33 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.drivers button{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 4rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-self: flex-end;
+    
+}
+
+
+.drivers button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.photo-drivers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-drivers > :last-child{
+    align-self: flex-end;
+    margin-right: 8rem;
 }
