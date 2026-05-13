@@ -15,7 +15,7 @@ const colors = {
 window.addEventListener('scroll', () => {
   for (const [team, color] of Object.entries(colors)) {
     const section = document.getElementById(team);
-    if (!section) return;
+    if (!section) continue;
     const rect = section.getBoundingClientRect();
 
     if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
