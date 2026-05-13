@@ -17,6 +17,15 @@
         .specs-table td:first-child { color: #ff3333; width: 40%; }
         .back-btn { display: inline-block; margin-top: 3rem; padding: 0.8rem 2.2rem; border: 1px solid #ff3333; color: #ff3333; font-family: monospace; font-size: 1rem; border-radius: 2rem; text-decoration: none; transition: background 0.2s, color 0.2s; }
         .back-btn:hover { background: #ff3333; color: #000; }
+
+        /* Footer Fixes */
+        footer { background: #0a0000; padding: 4rem 2rem; border-top: 1px solid #2a0000; text-align: center; }
+        .footer-content { max-width: 1200px; margin: 0 auto; }
+        .footer-links { display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap; }
+        .footer-links a { color: #ff3333; text-decoration: none; font-family: monospace; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px; transition: opacity 0.2s; }
+        .footer-links a:hover { opacity: 0.7; text-decoration: underline; }
+        footer p { color: #888; font-size: 0.9rem; letter-spacing: 1px; margin-bottom: 1rem; }
+        .copyright { color: #444; font-size: 0.75rem; margin-top: 2rem; }
     </style>
 </head>
 <body>
@@ -76,6 +85,21 @@
         <a class="back-btn" href="audi.html">← Back to Audi</a>
     </div>
 
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="audi.html#intro">Top</a>
+                <a href="audi.html#quattro">Quattro</a>
+                <a href="audi.html#r8">R8</a>
+                <a href="audi.html#rs6">RS6</a>
+                <a href="audi.html#etron">E-Tron</a>
+            </div>
+            <p>Vorsprung durch Technik — Advancement through Technology</p>
+            <div class="copyright">
+                &copy; 2026 Cars Fan Project. All images via Wikimedia Commons.
+            </div>
+        </div>
+    </footer>
     <script src="audi.js"></script>
 </body>
 </html>
