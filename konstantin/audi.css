@@ -1,0 +1,121 @@
+body {
+    background-color: #1a0000;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    transition: background-color 0.5s ease;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 5rem;
+    padding: 0 3rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.header button:hover {
+    background-color: #aaaaaa;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5rem;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #1a0000 0%, #330000 100%);
+}
+
+.intro-section h1 {
+    font-size: 4rem;
+    color: #ff3333;
+    margin-bottom: 1rem;
+}
+
+.intro-section p {
+    font-size: 1.5rem;
+    color: #cccccc;
+    max-width: 800px;
+}
+
+.car-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 3rem 2rem;
+    border-bottom: 1px solid #333;
+}
+
+.car-info {
+    max-width: 700px;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+}
+
+.car-info h2 {
+    font-size: 2.5rem;
+    color: #ff3333;
+    margin-bottom: 1rem;
+}
+
+.car-info p {
+    font-size: 1.1rem;
+    color: #aaaaaa;
+    line-height: 1.8;
+}
+
+#quattro {
+    background-color: #1a0000;
+}
+
+#r8 {
+    background-color: #240000;
+}
+
+#rs6 {
+    background-color: #1a0000;
+}
+
+#etron {
+    background-color: #200000;
+}
