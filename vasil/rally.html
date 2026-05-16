@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rally Cars</title>
     <link rel="stylesheet" href="rally.css">
 </head>
 <body>
     <div class="header">
         <div>
-            <button>
-                <a href="../index.html">Home</a>
-            </button>
+            <a href="../index.html">Home</a>
         </div>
         <div class="other">
-            <button>
-                <a href="../zdravko/formula.html">About F1</a>
-            </button>
-            <button>
-                <a href="../konstantin/audi.html">About AUDI</a>
-            </button>
-            <button>
-                <a href="../aleksandur/jdm.html">About JDM</a>
-            </button>
+            <a href="../zdravko/formula.html">About F1</a>
+            <a href="../konstantin/audi.html">About AUDI</a>
+            <a href="../aleksandur/jdm.html">About JDM</a>
         </div>
+    </div>
+
+    <div class="gallery">
+        <button onclick="previousCar()">⬅</button>
+
+        <div class="car-box">
+            <img id="carImage" src="subaru.jpg" alt="Rally car">
+            <h2 id="carName">Subaru Impreza WRC</h2>
+            <p id="carText">Legendary rally car with AWD and turbo power.</p>
+        </div>
+
+        <button onclick="nextCar()">➡</button>
+    </div>
+
+    <script src="rally.js"></script>
 </body>
 </html>
